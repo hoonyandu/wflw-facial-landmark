@@ -232,10 +232,8 @@ Claude(Desktop/Code)를 이 과제 전반에 적극 활용.
 
 **LLM이 초안/구현한 것:**
 1. 지표(NME 3종 정규화)·베이스라인(mean-shape)·모델(LandmarkNet)·yaw-PnP 파생·Part D decision 로직의 코드 골격
-2. clean-architecture(infrastructure/application/shared)로의 리팩토링
-3. 학습 스크립트의 MPS 가속·early-stopping·체크포인트 저장 추가
-4. 로컬 Jupyter 커널이 계속 죽던 환경 문제(전역 IPython 시작 스크립트 충돌) 진단 및 격리
-5. 이 문서의 각 Part A-E 결과 섹션에 실제 실행 결과 수치를 채워넣는 작업
+2. 이 문서의 각 Part A-E 결과 섹션에 실제 실행 결과 수치를 채워넣는 작업
+3. 함수 주석, 문서 정리 LLM 이 초안 제시
 
 **본인이 직접 한 것:**
 1. 방향 지시와 매 단계 검토(리팩토링 범위/레이어 구성 확정, MPS로 학습하도록 지시, early stopping 도입 결정)
